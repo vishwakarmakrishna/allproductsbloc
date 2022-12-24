@@ -37,6 +37,7 @@ class _MyAppState extends State<MyApp> {
     return GetBuilder<SupabaseController>(
       init: SupabaseController(),
       builder: (controller) => GetMaterialApp(
+        debugShowCheckedModeBanner: false,
         title: AppConstant.appName,
         getPages: MyRouter.getPages,
         theme: AppTheme.lightTheme,
