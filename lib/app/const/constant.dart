@@ -1,5 +1,5 @@
 class AppConstant {
-  static const String appName = 'Qr Code Scanner';
+  static const String appName = 'Access Products';
   static const String settings = 'settings';
   static const String darkMode = 'darkMode';
   static const String local = 'local';
